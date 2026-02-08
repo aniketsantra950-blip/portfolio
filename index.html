@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- CSS ফাইল লিংক করা -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ন্যাভবার -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- হোম সেকশন -->
+    <section id="home" class="section home">
+        <h2>হ্যালো, আমি একজন ওয়েব ডেভেলপার</h2>
+        <p>আমি সুন্দর ও ফাংশনাল ওয়েবসাইট তৈরি করি</p>
+        <button onclick="scrollToContact()">Contact Me</button>
+    </section>
+
+    <!-- অ্যাবাউট সেকশন -->
+    <section id="about" class="section">
+        <h2>আমার সম্পর্কে</h2>
+        <p>
+            আমি একজন ফ্রন্টএন্ড ওয়েব ডেভেলপার।  
+            HTML, CSS এবং JavaScript ব্যবহার করে আধুনিক ওয়েবসাইট বানাই।
+        </p>
+    </section>
+
+    <!-- সার্ভিস সেকশন -->
+    <section id="services" class="section services">
+        <h2>আমার সার্ভিস</h2>
+
+        <div class="service-box">
+            <div class="card">ওয়েব ডিজাইন</div>
+            <div class="card">রেসপন্সিভ ডিজাইন</div>
+            <div class="card">ফ্রন্টএন্ড ডেভেলপমেন্ট</div>
+        </div>
+    </section>
+
+    <!-- কন্টাক্ট সেকশন -->
+    <section id="contact" class="section contact">
+        <h2>যোগাযোগ করুন</h2>
+
+        <form>
+            <input type="text" placeholder="আপনার নাম" required>
+            <input type="email" placeholder="আপনার ইমেইল" required>
+            <textarea placeholder="আপনার মেসেজ"></textarea>
+            <button type="submit">পাঠান</button>
+        </form>
+    </section>
+
+    <!-- ফুটার -->
+    <footer>
+        <p>© 2026 MyPortfolio | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript ফাইল লিংক -->
+    <script src="script.js"></script>
+</body>
+</html>
+
